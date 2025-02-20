@@ -1,4 +1,4 @@
-// RagChew Dashboard V1 by KEVIN - KQ4CCM and other helping Ham's.
+// RagChew Dashboard V1.2 by KEVIN - KQ4CCM and other helping Ham's.
 
 const disableSetup = false;
 var topBarCenterText = `RagChew Dashboard`;
@@ -66,8 +66,8 @@ var aURL = [
 // the comma at the end is important!
 // You can't add more items because there are only 12 placeholders on the dashboard
 // but you can replace the titles and the images with anything you want.
-var aIMG = [
-  ["RADAR", "https://radar.weather.gov/ridge/standard/CONUS_loop.gif"],
+var aURL = [
+  ["DVS Dash", "http://167.172.135.185/index.php"],
   [
     "LOCAL RADAR",
     "https://radar.weather.gov/ridge/standard/KNQA_loop.gif",
