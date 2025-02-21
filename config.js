@@ -1,4 +1,5 @@
-// RagChew Dashboard V1.2 by KEVIN - KQ4CCM and other helping Ham's.
+// RagChew Dashboard V1.2 by KEVIN - KQ4CCM and other helping Ham's. Source code credit: 
+//VA3HDL (Pablos) Dashboard >>>> https://github.com/VA3HDL/hamdashboard?tab=readme-ov-file
 
 const disableSetup = false;
 var topBarCenterText = `RagChew Dashboard`;
@@ -7,14 +8,14 @@ var topBarCenterText = `RagChew Dashboard`;
 var layout_cols = 4;
 var layout_rows = 3;
 
-// Menu items
+// Menu items - 1 to 12 items Left & Right coloerd tabs.
 // Structure is as follows HTML Color code, Option, target URL, scaling 1=Original Size, side (optional, nothing is Left, "R" is Right)
 // The values are [color code, menu text, target link, scale factor, side],
 // add new lines following the structure for extra menu options. The comma at the end is important!
 var aURL = [
-  ["2196F3", "AllStar", "https:// Add your AllStar IP or URL Here", "1.7"],
+  ["2196F3", "AllStar", "http://192.168.1.6/supermon2/link.php?nodes=607180,6487", "1"],
 
-  ["2196F3", "AllScan", "https:// Add your AllScan IP or URL Here", "1.7"],
+  ["2196F3", "AllScan", "http://192.168.1.6/allscan", "1"],
   
   ["2196F3", "PISTAR", "http://pi-star.local/", "1.2"],
 
@@ -24,9 +25,7 @@ var aURL = [
   [
     "2196F3",
     "LIGHTNING",
-    "https://map.blitzortung.org/#3.87/36.5/-89.41",
-    "1",
-    "R",
+    "https://map.blitzortung.org/#3.87/36.5/-89.41", "1","R",
   ],
   
   [
