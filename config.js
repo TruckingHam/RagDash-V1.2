@@ -56,14 +56,14 @@ var aURL = [
   [
     "#abd2f2",
     "RADAR",
-    "https://weather.gc.ca/?layers=alert,radar&center=43.39961001,-78.53212031&zoom=6&alertTableFilterProv=ON",
+    "https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJ3ZWF0aGVyIiwiY2VudGVyIjpbLTk4Ljc3Niw0MC41NjddLCJsb2NhdGlvbiI6Wy05OS42MzgsMzguNTg4XSwiem9vbSI6NC44NjE4MTA4NzcwMTU2NzgsImxheWVyIjoiYnJlZl9xY2QifSwiYW5pbWF0aW5nIjpmYWxzZSwiYmFzZSI6InN0YW5kYXJkIiwiYXJ0Y2MiOmZhbHNlLCJjb3VudHkiOmZhbHNlLCJjd2EiOmZhbHNlLCJyZmMiOmZhbHNlLCJzdGF0ZSI6ZmFsc2UsIm1lbnUiOnRydWUsInNob3J0RnVzZWRPbmx5IjpmYWxzZSwib3BhY2l0eSI6eyJhbGVydHMiOjAuOCwibG9jYWwiOjAuNiwibG9jYWxTdGF0aW9ucyI6MC44LCJuYXRpb25hbCI6MC42fX0%3D",
     1,
     "R"
   ],
   [
     "#f41f91",
     "WEATHER",
-    "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=44.0157&lon=-79.4591&zoom=5",
+    "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=44.0157&lon=-79.4591https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=38.9594&lon=-93.3398&zoom=4",
     1,
     "R"
   ],
@@ -106,9 +106,9 @@ var aURL = [
   ],
   [
     "RC Supermon2 ",
-    <iframe id="responsive-iframe" src="yiframe|http://ragchewnetwork.ddns.net:8080/supermon2/link.php?nodes=60568" allowfullscreen></iframe>
+    <iframe id="responsive-iframe" src="yiframe|http://ragchewysf.network" allowfullscreen></iframe>
   ],
-  
+  ],
   [
     "GMRS DashBoard ",
     "iframe|http://ragchewgmrshub.ddns.net/supermon2/link.php?nodes=531048"

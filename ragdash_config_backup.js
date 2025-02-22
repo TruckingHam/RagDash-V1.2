@@ -84,7 +84,7 @@ var aURL = [
   [
     "#f0190a",
     "QRZ.Com",
-    "https://www.qrz.com/db/KQ4CCM/",
+    "https://www.qrz.com/db/KQ4CCM",
     1,
     "L"
   ]
