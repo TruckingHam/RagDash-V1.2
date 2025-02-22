@@ -67,6 +67,8 @@ db   8D    88       88    88booo. 88.     db   8D
         align-items: center;
       }
 
+      /* This also effects the side nav tabs*/
+      /* Style for the iframe element */
       .img-zoom {
         background-color: black;
         left: 0px;
@@ -114,10 +116,11 @@ db   8D    88       88    88booo. 88.     db   8D
         bottom: 0px;
       }
 
+      /* This changes the color of the top bar */
       .top-bar {
         display: grid;
         grid-template-columns: 2fr 1fr 2fr;
-        background-color: #333;
+        background-color: #121212;
         color: #fff;
         padding: 1vh;
         border: 0px none;
@@ -131,7 +134,7 @@ db   8D    88       88    88booo. 88.     db   8D
         display: grid;
         border: 1px solid hsl(210deg 8% 50%);
         border-radius: 5px;
-        background: hsl(210deg 15% 20%);
+        background: hsl(0, 0%, 3%);
         color: white;
         padding: 0.5vh;
         font-family: "Victor Mono", sans-serif;
@@ -356,7 +359,7 @@ db   8D    88       88    88booo. 88.     db   8D
         display: none;
         font-family: Arial, sans-serif;
         margin: 50px;
-        background-color: aliceblue;
+        background-color: rgb(248, 249, 250);
         height: 100%;
         overflow-y: auto;
       }
@@ -367,7 +370,7 @@ db   8D    88       88    88booo. 88.     db   8D
         top: 0;
         left: 0;
         width: 100%;
-        background-color:cadetblue;
+        background-color:rgb(11, 11, 11);
         padding-top: 7px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         z-index: -3;
@@ -508,7 +511,7 @@ db   8D Y8b  d8 88 `88.   .88.   88         88    db   8D
         // Default Values
         const defaults = {
           settingsSource: "localStorage",
-          topBarCenterText: "CALLSIGN - Locator",
+          topBarCenterText: "CALLSIGN - LOCATOR",
           layout_cols: 4,
           layout_rows: 3,
           aURL: [["2196F3", "Photos", "https://picsum.photos/", 1, "L"]],
@@ -718,7 +721,7 @@ db   8D Y8b  d8 88 `88.   .88.   88         88    db   8D
           downloadAnchorNode.setAttribute("href", dataStr);
           downloadAnchorNode.setAttribute(
             "download",
-            "hamdash_config_backup.json"
+            "ragdash_config_backup.json"
           );
           document.body.appendChild(downloadAnchorNode);
           downloadAnchorNode.click();
@@ -1673,21 +1676,21 @@ Y8888P'  `Y88P'  Y8888D'    YP
         <div
           id="topBarLeft"
           class="child"
-          style="text-align: left; padding-left: 7px; color: blanchedalmond"
+          style="text-align: center; padding-left: 7px; color: rgb(237, 105, 4)"
         >
           &nbsp;
         </div>
         <div
           id="topBarCenter"
           class="child"
-          style="text-align: center; color: rgb(0, 119, 255)"
+          style="text-align: center; color: rgb(237, 105, 4)"
         >
           &nbsp;
         </div>
         <div
           id="topBarRight"
           class="child"
-          style="text-align: right; padding-right: 5px; color: aquamarine"
+          style="text-align: center; padding-right: 5px; color: rgb(237, 105, 4)"
         >
           &nbsp;
         </div>
