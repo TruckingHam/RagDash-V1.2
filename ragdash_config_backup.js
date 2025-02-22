@@ -1,6 +1,6 @@
 // CUT START
 var disableSetup = false; // Manually set to true to disable setup page menu option
-var topBarCenterText = "KQ4CCM RagChew Dashboard";
+var topBarCenterText = "KQ4CCM RagDash";
 
 // Grid layout desired
 var layout_cols = 2;
@@ -84,34 +84,35 @@ var aURL = [
   [
     "#f0190a",
     "QRZ.Com",
-    "https://www.qrz.com/db/KQ4CCM",
+    "https://www.qrz.com/db/KQ4CCM/",
     1,
     "L"
   ]
 ];
 
 // Dashboard Tiles items
-// Tile Structure is Title, Source URL if non ssl dont not use https:// use http://
+// Tile Structure is Title, Source URL
 // To display a website on the tiles use "iframe|" keyword before the tile URL
 // [Title, Source URL],
 // the comma at the end is important!
-var aURL = [
+var aIMG = [
   [
     "DVS Dash",
-    "iframe|http://167.172.135.185"
+    "iframe|http://167.172.135.185 "
   ],
   [
     "YSF DashBoard",
-    <iframe id="responsive-iframe" src="yiframe|http://ragchewysf.network" allowfullscreen></iframe>
+    "iframe|http://ragchewysf.network "
   ],
   [
     "RC Supermon2 ",
-    <iframe id="responsive-iframe" src="yiframe|http://ragchewnetwork.ddns.net:8080/supermon2/link.php?nodes=60568" allowfullscreen></iframe>
+    "iframe|http://ragchewnetwork.ddns.net:8080/supermon2/link.php?nodes=60568",
+    "6487"
   ],
-  
   [
     "GMRS DashBoard ",
-    "iframe|http://ragchewgmrshub.ddns.net/supermon2/link.php?nodes=531048"
+    "iframe|http://ragchewgmrshub.ddns.net/supermon2/link.php?nodes=531048",
+    "531049"
   ]
 ];
 
